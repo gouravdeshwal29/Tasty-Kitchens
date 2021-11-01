@@ -1,0 +1,82 @@
+.restaurant-item-link {
+  text-decoration: none;
+}
+
+.restaurant-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.restaurant-image {
+  border-radius: 8px;
+  min-height: 200px;
+  max-height: 200px;
+  min-width: 420px;
+  max-width: 420px;
+}
+
+.restaurant-cost {
+  display: flex;
+  align-items: center;
+  color: #334155;
+}
+
+.restaurant-cost-for-two {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #334155;
+}
+
+.restaurant-name-rating-reviews-container {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  margin-left: 20px;
+}
+
+.restaurant-name {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  color: #334155;
+}
+
+.restaurant-cuisine {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #64748b;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.rating-and-reviews-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.restaurant-rating {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #1e293b;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.restaurant-reviews {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #64748b;
+}

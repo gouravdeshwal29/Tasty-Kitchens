@@ -1,0 +1,69 @@
+.navbar-background-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8fafc;
+  padding: 10px;
+}
+
+.logo-and-app-name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.name {
+  font-family: DM Sans;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 10px;
+  color: #f7931e;
+  text-decoration: none;
+  margin-top: 0px;
+  margin-left: 20px;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.home {
+  text-decoration: none;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  color: #334155;
+}
+
+.cart {
+  text-decoration: none;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  color: #334155;
+  margin-left: 30px;
+}
+
+.logout-button {
+  width: 75px;
+  background: #f7931e;
+  border-radius: 8px;
+  color: white;
+  border-width: 0px;
+  font-size: 10px;
+  margin-left: 40px;
+  padding: 10px;
+}

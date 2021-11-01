@@ -1,0 +1,44 @@
+.footer-container {
+  background-color: #0f172a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  color: white;
+}
+
+.footer-logo {
+  color: white;
+}
+
+.footer-heading {
+  font-family: DM Sans;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.footer-caption {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.pinterest-icon {
+  margin: 10px;
+}
+
+.instagram-icon {
+  margin: 10px;
+}
+
+.facebook-icon {
+  margin: 10px;
+}
+
+.twitter-icon {
+  margin: 10px;
+}

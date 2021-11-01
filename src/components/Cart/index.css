@@ -1,0 +1,141 @@
+.empty-cart-background-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-cart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-cart-heading {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  color: #1e293b;
+}
+
+.empty-cart-caption {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #64748b;
+  margin-top: -10px;
+}
+
+.empty-cart-button {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  background-color: #f7931e;
+  border-radius: 8px;
+  color: white;
+  padding: 5px;
+  border-width: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: -10px;
+}
+
+.cart-list {
+  list-style-type: none;
+  background-color: #f9fbfe;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.cart-background-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.item-quantity-price-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #f9fbfe;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  color: #475569;
+}
+
+.cart-total-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  padding-left: 150px;
+  padding-right: 150px;
+  background-color: #f9fbfe;
+  padding-bottom: 40px;
+}
+
+.total {
+  display: flex;
+  align-items: center;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #3e4c59;
+}
+
+.order-total-line {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.place-order-button {
+  background: #f7931e;
+  border-radius: 8px;
+  border-width: 1px;
+  color: white;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.payment-success-container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment-success-heading {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #1e293b;
+}
+
+.payment-success-caption {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #64748b;
+}
+
+.payment-success-button {
+  background: #f7931e;
+  border-radius: 8px;
+  color: white;
+  border-width: 1px;
+  padding: 10px;
+}
